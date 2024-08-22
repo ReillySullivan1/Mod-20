@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    const resumeButton = document.getElementById('cs1-button');
-    resumeButton.addEventListener('click', function(popover) {
-        window.location.href = 'https://docs.google.com/presentation/d/13u4gOYFfTUCKl9f4RRL7YUHrMnouaf56eaTrt09gK4Y/edit?usp=sharing';
+    const resumeButton = document.getElementById('resume-button');
+    resumeButton.addEventListener('click', function() {
+        window.location.href = 'Images/Resume.pdf'; // Replace with the actual path to your resume file
     });
 });
